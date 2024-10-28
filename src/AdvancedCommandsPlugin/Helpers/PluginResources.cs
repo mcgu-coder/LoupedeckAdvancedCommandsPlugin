@@ -19,8 +19,8 @@ namespace Loupedeck.AdvancedCommandsPlugin
         }
 
         // Retrieves the names of all the resource files in the specified folder.
-        // The parameter `folderName` must be specified as a full path, for example, `Loupedeck.AdvancedKeyboardShortcutPlugin.Resources`.
-        // Returns the full names of the resource files, for example, `Loupedeck.AdvancedKeyboardShortcutPlugin.Resources.Resource.txt`.
+        // The parameter `folderName` must be specified as a full path, for example, `Loupedeck.AdvancedCommandsPlugin.Resources`.
+        // Returns the full names of the resource files, for example, `Loupedeck.AdvancedCommandsPlugin.Resources.Resource.txt`.
         public static String[] GetFilesInFolder(String folderName) => PluginResources._assembly.GetFilesInFolder(folderName);
 
         // Finds the first resource file with the specified file name.

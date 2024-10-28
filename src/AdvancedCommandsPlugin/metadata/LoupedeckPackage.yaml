@@ -11,17 +11,20 @@ name: AdvancedCommands
 # Name that is displayed in the Loupedeck configuration application.
 displayName: Advanced Commands
 
+# Short description of the plugin.
+description: Add a short description of the plugin here.
+
 # Name of the plugin library file.
 pluginFileName: AdvancedCommandsPlugin.dll
 
 # Plugin version.
-version: 1.0
+version: 2.0
 
 # Author of the plugin. The author can be a company or an individual developer.
 author: McGu
 
 # Copyright information.
-copyright: Copyright © 2023 . All rights reserved.
+copyright: Copyright © 2024 . All rights reserved.
 
 
 # ==================================================================================================
@@ -30,11 +33,11 @@ copyright: Copyright © 2023 . All rights reserved.
 
 # Location of plugin files on Windows (relative to the plugin base directory).
 # This parameter is required to support Windows.
-pluginFolderWin: win
+pluginFolderWin: .
 
 # Location of plugin files on macOS (relative to the plugin base directory).
 # This parameter is required to support Mac.
-#pluginFolderMac: mac
+#pluginFolderMac: .
 
 # List of supported devices.
 supportedDevices:
@@ -53,7 +56,7 @@ pluginCapabilities:
     #- ActivatesApplication
 
 # Minimum Loupedeck version supported by the plugin.
-minimumLoupedeckVersion: 5.7
+minimumLoupedeckVersion: 6.0
 
 
 # ==================================================================================================
